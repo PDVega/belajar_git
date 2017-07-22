@@ -2,7 +2,9 @@
 ini repository buat belajar git 
 
 www.atlassian.com/git/tutorials/comparing-workflows
-##git command
+
+
+## git command
       git add . 
       git commit - "keterangan perubahan yang dilakukan"
       git push origin master
@@ -16,7 +18,7 @@ www.atlassian.com/git/tutorials/comparing-workflows
       git rebase --abort
 
 
-##creating new branch for new feature
+## creating new branch for new feature
       git checkout -b marys-feature master
       git status
       git add <some file that have been change>
@@ -24,8 +26,8 @@ www.atlassian.com/git/tutorials/comparing-workflows
       git push
 
 
-git checkout master
-git pull
-git pull origin marys-feature
-git push
+      git checkout master
+      git pull
+      git pull origin marys-feature
+      git push
 
